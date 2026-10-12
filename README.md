@@ -8,6 +8,8 @@
 - Установка
 - Использование
 - Правила
+- Структура
+- Пример работы
 - Автор
 
 ## Возможности
@@ -18,6 +20,8 @@
 - 📊 JSON-отчёт
 - 🎨 Красивый вывод через rich
 - 🔄 Код возврата для CI/CD (--strict)
+- 🚫 Исключение папок (--exclude venv)
+- 📁 Сканирование файлов и папок
 
 ## Установка
 
@@ -31,9 +35,30 @@ python scanner.py ./my_project
 
 | ID | Название | Серьёзность |
 |----|----------|-------------|
-| EXE001 | Использование eval() | CRITICAL |
+| SQL001 | SQL-инъекция через f-string | CRITICAL |
+| SQL003 | SQL-запрос через конкатенацию | HIGH |
 | SEC001 | Хардкод пароля | HIGH |
+| SEC002 | Хардкод API-ключа | HIGH |
+| SEC005 | Хардкод JWT-секрета | CRITICAL |
+| EXE001 | Использование eval() | CRITICAL |
+| EXE002 | Использование exec() | HIGH |
+| SUB001 | subprocess с shell=True | HIGH |
 | CRY001 | Слабый хеш MD5 | MEDIUM |
+| CRY005 | Отключение проверки SSL | CRITICAL |
+| XSS001 | XSS через render_template_string | HIGH |
+| CORS002 | CORS с allow_credentials=True | CRITICAL |
+| ... | всего 37 правил | |
+
+## Структура
+```
+python-security-scanner/
+├── scanner.py
+├── rules.py
+├── test_vulnerable.py
+├── requirements.txt
+├── .scannerignore
+└── README.md
+```
 
 ## Автор
 
