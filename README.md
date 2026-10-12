@@ -116,8 +116,9 @@ python-security-scanner/
    Код:  return eval(code)
    Описание: eval() выполняет произвольный код. Это критическая уязвимость.
 
+```
 ## 👤 Автор
-
+```
 **Онищенко Павел Владимирович**
 - GitHub: [@nconichtchenko-arch](https://github.com/nconichtchenko-arch)
 
