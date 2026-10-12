@@ -104,8 +104,7 @@ python-security-scanner/
 ## 📊 Пример работы
 ```
 🔍 Сканирую 1 файлов...
-```
-```
+
 ┌─────────────────────────────────────────┐
 │ Найдено 12 проблем                       │
 │ CRITICAL: 2 | HIGH: 6 | MEDIUM: 3 | LOW: 1 │
@@ -117,7 +116,9 @@ python-security-scanner/
    Описание: eval() выполняет произвольный код. Это критическая уязвимость.
 
 ```
+
 ## 👤 Автор
+
 ```
 **Онищенко Павел Владимирович**
 - GitHub: [@nconichtchenko-arch](https://github.com/nconichtchenko-arch)
