@@ -118,9 +118,11 @@ python-security-scanner/
 ```
 
 ## 👤 Автор
+
 ```
 **Онищенко Павел Владимирович**
 ```
+
 - GitHub: [@nconichtchenko-arch](https://github.com/nconichtchenko-arch)
 
 ---
