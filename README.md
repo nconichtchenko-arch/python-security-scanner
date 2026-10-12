@@ -99,7 +99,6 @@ python-security-scanner/
 ├── requirements.txt
 ├── .scannerignore
 └── README.md
-```
 
 ## 📊 Пример работы
 
