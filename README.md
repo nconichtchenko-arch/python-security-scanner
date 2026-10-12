@@ -100,7 +100,9 @@ python-security-scanner/
 ├── .scannerignore
 └── README.md
 
+
 ## 📊 Пример работы
+
 
 🔍 Сканирую 1 файлов...
 
