@@ -17,6 +17,25 @@ pip install -r requirements.txt
 
 python scanner.py ./my_project
 
+## Структура
+
+python-security-scanner/
+├── scanner.py
+├── rules.py
+├── test_vulnerable.py
+├── requirements.txt
+├── .scannerignore
+└── README.md
+
+## Пример работы
+
+🔍 Сканирую 1 файлов...
+
+┌─────────────────────────────────────────┐
+│ Найдено 12 проблем                       │
+│ CRITICAL: 2 | HIGH: 6 | MEDIUM: 3 | LOW: 1 │
+└─────────────────────────────────────────┘
+
 ## Автор
 
 Онищенко Павел Владимирович
