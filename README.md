@@ -99,17 +99,17 @@ python-security-scanner/
 ├── requirements.txt
 ├── .scannerignore
 └── README.md
-
+```
 
 ## 📊 Пример работы
 
 🔍 Сканирую 1 файлов...
-
+```
 ┌─────────────────────────────────────────┐
 │ Найдено 12 проблем                       │
 │ CRITICAL: 2 | HIGH: 6 | MEDIUM: 3 | LOW: 1 │
 └─────────────────────────────────────────┘
-
+```
 1. EXE001 Использование eval()
    Файл: test_vulnerable.py:24
    Код:  return eval(code)
